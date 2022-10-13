@@ -1,5 +1,5 @@
 {
-  "name": "did-resolver",
+  "name": "@symfoni/did-resolver",
   "version": "4.0.0",
   "description": "Resolve DID documents",
   "type": "module",
@@ -18,7 +18,8 @@
   "exports": {
     ".": {
       "require": "./lib/resolver.cjs",
-      "import": "./lib/resolver.module.js"
+      "import": "./lib/resolver.module.js",
+      "types": "./lib/resolver.d.ts"
     }
   },
   "sideEffects": false,
